@@ -1,0 +1,24 @@
+[app]
+title = Config Validator
+package.name = configvalidator
+package.domain = org.allfather
+source.dir = .
+source.include_exts = py
+version = 1.0
+requirements = python3,kivy,urllib3,certifi
+orientation = portrait
+osx.python_version = 3
+osx.kivy_version = 2.1.0
+fullscreen = 0
+android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
+android.api = 31
+android.minapi = 21
+android.ndk = 23b
+android.sdk = 23
+android.gradle_dependencies = 
+android.logcat_filters = *:S python:D
+android.allow_backup = False
+p4a.branch = master
+p4a.url = https://github.com/kivy/python-for-android.git
+p4a.bootstrap = sdl2
+ios.kivy_version = 2.1.0
