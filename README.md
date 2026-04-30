@@ -1,0 +1,2 @@
+# Confalidator
+VPN config validator 
